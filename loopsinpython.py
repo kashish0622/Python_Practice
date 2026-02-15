@@ -1,5 +1,5 @@
 #Print numbers from 1 to 100
-'''count = 1
+count = 1
 while count<=100:
     print(count)
     count += 1
@@ -9,9 +9,9 @@ count = 100
 while count>=1:
     print(count)
     count -= 1
-'''
+
 # Print the multiplication table of a number n
-'''
+
 number = int(input("Enter the number: "))
 print("\n--- Table of entered number is:  ---")
 
@@ -44,7 +44,7 @@ else:
 list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 for a in list:
     print(a)
-        '''
+        
 #Search for a number x in this tuple using loop:
 
 tup1 = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
