@@ -25,7 +25,7 @@ i = 1
 while i<=10:
     print(i*i)
     i += 1
-'''
+
 #Search for a number x in this tuple using loop:
 tup1 = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
 
@@ -39,3 +39,22 @@ while i < len(tup1):
    i+=1
 else:
    print(x, "number is not present in tuple")
+   
+# Print the elements using a loop
+list = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+for a in list:
+    print(a)
+        '''
+#Search for a number x in this tuple using loop:
+
+tup1 = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+i = 0
+x = int(input("Enter a number to search: "))
+for a in tup1:
+    if a == x:
+        print(x, "Number found")
+        i+=1
+        break
+else:
+    print(x, "Search failed!!")
+
