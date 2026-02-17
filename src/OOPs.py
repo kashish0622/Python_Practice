@@ -1,4 +1,4 @@
-class Student:
+'''class Student:
     def __init__(self, name, marks):
         self.name = name
         self.marks = marks
@@ -20,3 +20,30 @@ s4.average()
 s5 = Student("Zeven", [58, 63, 42, 55, 99])
 s5.average()  
 
+'''
+# accounts
+class Account():
+    def __init__(self, balance, acc_no):
+        self.bal = balance
+        self.account_no = acc_no
+
+    def debit(self, amount):
+        self.bal -= amount
+        print("Rs. ", amount, "debited from your bank account.")
+        print("Total balance in you bank account is: ", self.bal)
+
+    def credit(self, amount):
+        self.bal += amount
+        print("Rs. ", amount, "debited from your bank account.")
+        print("Total balance in you bank account is: ", self.bal)
+    
+    def get_balance(self):
+        return self.bal
+
+account1 = Account(25000, "123456AIB")
+account2 = Account(98000, "256978CRE")
+account1.debit(1000)
+account1.credit(1600)
+print("Balance of Account1 is: ",account1.bal,  "Account_No. of Account1 is: ", account1.account_no)
+
+        
