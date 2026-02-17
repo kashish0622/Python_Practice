@@ -1,4 +1,4 @@
-'''class Student:
+class Student:
     def __init__(self, name, marks):
         self.name = name
         self.marks = marks
@@ -20,7 +20,7 @@ s4.average()
 s5 = Student("Zeven", [58, 63, 42, 55, 99])
 s5.average()  
 
-'''
+
 # accounts
 class Account():
     def __init__(self, balance, acc_no):
