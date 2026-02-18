@@ -1,8 +1,8 @@
-Python Learning Roadmap – Overview
+** Python Learning Roadmap – Overview **
 
 This repository covers a complete Python learning journey from beginner fundamentals to advanced programming concepts. It is designed to help build a strong foundation in Python and gradually progress toward real-world development skills.
 
-Topics Covered
+## Topics Covered
 1. Introduction to Programming
 Learn the core concepts of programming such as variables, data types, loops, and conditional statements.
 
