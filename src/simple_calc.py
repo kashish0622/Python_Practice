@@ -1,7 +1,0 @@
-a = int(input("ENTER a: "))
-b = int(input("Enter b: "))
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(b%a) 
